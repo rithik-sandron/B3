@@ -1,0 +1,107 @@
+#plan-box {
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+}
+
+.plans {
+    background-image: url('../../assets/dots.svg');
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 16px;
+    width: 100%;
+    margin: auto;
+    height: fit-content;
+    color: #222;
+    padding: 8rem 0 8rem 0;
+    background-color: #fff;
+}
+
+#individual-section {
+    font-size: 28px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    /* border: 1px solid #aeaeae; */
+    border-radius: 3px;
+    box-shadow: 12px 12px 12px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 12px rgba(0, 0, 0, 0.19);
+    width: 225px;
+    margin: 0 1rem 0 1rem;
+    padding-top: 16px;
+}
+
+/* #head {
+    background-color: #aeaeae;
+    height: 1px;
+    width: 80%;
+    border: none;
+} */
+
+#price {
+    display: block;
+    font-weight: 600;
+    padding: 16px 24px 8px 24px;
+    font-size: 38px;
+}
+
+#services {
+    font-size: 16px;
+    text-align: left;
+    list-style-image: url('../../assets/check.svg');
+    padding: 12px;
+}
+
+#services li {
+    margin-left: 2rem;
+    padding: 6px;
+}
+
+#type {
+    font-size: 22px;
+    margin: 0;
+    text-align: left;
+    padding: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-weight: bolder;
+    letter-spacing: .05em;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    text-rendering: optimizeLegibility;
+    color: #000;
+}
+
+#tab-switch {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 0 8px 0;
+    margin-bottom: 1rem;
+}
+
+#tab-switch li {
+    font-size: 1.15em;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .05em;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    text-rendering: optimizeLegibility;
+    display: inline;
+    padding: 8px 12px 8px 12px;
+    cursor: pointer;
+    border: 1px solid #333;
+    border-radius: 3px;
+    color: rgb(23, 130, 218);
+  }
+
+  #tab-switch li:hover {
+    color: rgb(1, 137, 248); 
+    border-color: #555; 
+  }
+  
+/* #tab-switch li:focus, #tab-switch li:hover {
+    background-color: #222;
+  } */

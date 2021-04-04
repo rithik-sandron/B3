@@ -1,0 +1,28 @@
+.testimonials {
+    display: grid;
+    grid-template-columns: 32.3% 32.3% 32.3%;
+    column-gap: 1%;
+    row-gap: 10%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    height: fit-content;
+    color: #222;
+}
+
+#profile {
+    width: 48px;
+    height: 48px;
+    border-radius: 25px;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: fit-content;
+    height: fit-content;
+    padding: 16px;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+}

@@ -1,0 +1,28 @@
+.we-do {
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+    margin-top: 4rem;
+    border-radius: 10px;
+    background-color: #000;
+    text-align: center;
+    width: 75%;
+}
+
+.gradient {
+    background: linear-gradient(137deg, rgb(99, 98, 99) 0%, rgb(200, 200, 200) 79%, rgb(220, 220, 220) 82%, rgb(200, 200, 200) 85%, rgb(91, 90, 90) 100%);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 550;
+    font-size: 48px;
+}
+
+.mark li {
+    display: inline;
+}
+
+.mark span {
+    color: rgb(17, 110, 187);
+    padding: 12px;
+}

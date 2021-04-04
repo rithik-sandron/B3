@@ -1,0 +1,9 @@
+.featured {
+    padding-top: 2rem;
+    font-size: 40px;
+    font-weight: 600;
+    background-color: rgb(221, 98, 94);
+    text-align: center;
+    height: 15rem;
+    cursor: pointer;
+}
